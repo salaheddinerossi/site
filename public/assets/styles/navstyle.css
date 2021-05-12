@@ -1,0 +1,282 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito Sans';
+}
+body{
+    background-color: #FAFAFA;
+}
+/* ------------------- nav bat ------------------------*/
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li a:hover {
+  color: #252525;
+  text-decoration: none;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar .navbar-brand {
+  padding: 0px;
+  margin: 0px;
+}
+
+/******************************* slider *****************************/
+.shapee {
+  -webkit-clip-path: polygon(100% 0%, 100% 85%, 50% 100%, 0 85%, 0 0);
+          clip-path: polygon(100% 0%, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+
+.content {
+  z-index: 888;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.v-center {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 125px;
+}
+
+.v-center h2 {
+  color: #9ED1F4;
+  font-size: 24px;
+}
+
+.v-center h3 {
+  font-size: 48px;
+  font-weight: 800;
+  color: white;
+}
+
+.v-center button {
+  width: 188px;
+  height: 50px;
+  background-color: #9ED1F4;
+  border: 0px;
+  color: white;
+}
+
+.abs {
+  position: absolute;
+}
+
+ol {
+  margin-bottom: 70px;
+}
+
+.f-icon {
+  position: absolute;
+  margin-top: -60px;
+  left: 50%;
+  padding: 15px 40px 5px 40px;
+  text-align: center;
+  background-color: white;
+}
+
+.f-icon border
+p {
+  font-size: 14px;
+  padding-top: 10px;
+  color: white;
+}
+
+.s-icon {
+  position: absolute;
+  margin-top: -60px;
+  right: 50%;
+  padding: 15px 40px 5px 40px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid #9ED1F4;
+}
+
+.s-icon p {
+    padding-top: 18px;
+    font-size: 14px;
+    color: #9ED1F4;
+    margin-bottom: 5px;
+}
+
+.pp {
+  text-align: center;
+  padding-top: 30px;
+}
+
+footer {
+  padding-top: 50px;
+}
+
+hr {
+  border: 1px solid #9ED1F4;
+  opacity: 100%;
+  color: #9ED1F4;
+}
+/*# sourceMappingURL=navstyle.css.map */
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #9ed1f4;
+    height: 7px;
+}
+.carousel-indicators{
+    align-items: flex-end;
+}
+.carousel-indicators li{
+    opacity: 1;
+}
+
+/** image*/
+.image{
+    height: 163px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.25)) ,url('/../assets/images/bgimage.png');
+}
+.h-selc{
+    padding-top:40px;
+    font-size:28px;
+}
+/**************************************PANIER***************************************/
+/*panier header */
+
+.panier-row1{
+    background-color: #fff;
+    padding: 15px 15px 15px  60px ;
+}
+.panier-row1 div h2
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+/** panier body  **/
+
+.panier-table{
+    padding-top: 30px;
+}
+.panier-row2{
+    background-color: #fff;
+    padding: 15px 15px 15px  60px ;
+}
+.panier-row2 div p{
+    font-size: 14px;
+}
+/** elments **/
+.qt {
+    background-color: #9ED1F4;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 10px;
+    color: white;
+    margin-left: 10px;
+
+}
+.cross-mark{
+    color: black;
+    font-size: 30px;
+}
+ ul{
+    padding: 0;
+    list-style: none;
+    font-size: 13px;
+
+}
+.panier-row2 div ul li::before{
+        content: "-";
+        padding-right: 8px;
+
+      }
+/** form **/
+.panier-form{
+    background-color: white;
+    padding: 30px;
+    margin-right: -13px;
+    margin-top: 20px;
+
+}
+.pad input[type="text"] {
+    width: 205px;
+    height: 29px;
+    padding-right: 50px;
+    border: solid 1px #9ED1F4;
+    padding-left: 25px;
+}
+.pad input:focus[type="text"] {outline:0;}
+.pad input[type="submit"] {
+    margin-left: -50px;
+    width: 73px;
+    height: 29px;
+        background: #9ED1F4;
+    color: white;
+    border: 0;
+    -webkit-appearance: none;
+
+}
+.pad button{
+    width: 227px;
+    height: 29px;
+    background-color:#9ED1F4 ;
+    color: white;
+    border: 0px;
+    margin-top: 10px;
+
+}
+.pad button:focus {outline:0;}
+
+.pad p{
+    font-weight: bold;
+    font-size: 14px;
+}
+.panier-form-header {
+    background-color: white;
+    margin: 0px;
+}
+.panier-form-header p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 30px;
+}
+.panier-form-body {
+
+}
+.panier-form-body p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 30px;
+}
+.panier-form-body h3{
+    font-size: 14px;
+}
+.list-form ul li::before{
+    content: "-";
+    padding-right: 8px;
+    font-size: 14px;
+}
+.
+.bg-form{
+    background-color: white;
+
+}

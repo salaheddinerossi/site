@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('t1.new');
+});
+
+Route::get('/panier', function () {
+    return view('t1.panier');
+});
+Route::get('/panier-form', function () {
+    return view('t1.panier-form');
 });
