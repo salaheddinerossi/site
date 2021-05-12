@@ -248,6 +248,7 @@ hr {
     font-weight: bold;
     font-size: 14px;
 }
+/**panier form(left)**/
 .panier-form-header {
     background-color: white;
     margin: 0px;
@@ -259,7 +260,7 @@ hr {
     padding: 30px;
 }
 .panier-form-body {
-
+    padding: 30px 30px 15px 30px;
 }
 .panier-form-body p{
     font-size: 14px;
@@ -275,8 +276,38 @@ hr {
     padding-right: 8px;
     font-size: 14px;
 }
-.
+
 .bg-form{
     background-color: white;
+    margin-top: 20px;
 
 }
+.panier-form-body div div div img{
+    padding-right: 20px;
+}
+
+.panier-form-body div div div ul{
+    margin-left: 10px;
+}
+.panier-form-button{
+    width: 227px;
+    height: 29px;
+    background: #9ED1F4;
+    color: white;
+    border: 0;
+    float: right;
+    margin-top: 10px;
+}
+.panier-form-button:focus {outline:0;}
+/**panier form(right)**/
+.half-i{
+    width: 45%;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.full-i{
+    width: 92%;
+    margin-top: 10px;
+
+}
+
