@@ -23,3 +23,17 @@ Route::get('/panier', function () {
 Route::get('/panier-form', function () {
     return view('t1.panier-form');
 });
+Route::get('/connect', function () {
+    return view('t1.se-connecter');
+});
+
+Route::get('/contact', function () {
+    return view('t1.contact');
+});
+
+Route::get('/profile', function () {
+    return view('t1.profile');
+});
+Route::get('/histoire', function () {
+    return view('t1.notre-histoire');
+});

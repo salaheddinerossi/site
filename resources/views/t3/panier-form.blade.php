@@ -1,4 +1,4 @@
-@extends("t1.layout.l2")
+@extends("t3.layout.l2")
 
 @section('content')
 <div class="container">
@@ -50,16 +50,15 @@
                             </div>
                         </div>
                         <div class="col-3"><p>15.00€</p></div>
-
                     </div>
-                    <button class="panier-form-button" >Modifier</button>
 
                 </div>
+                <button class="panier-form-button" >Modifier</button>
 
             </div>
             <div class="col-md-6">
                 <form action="" >
-
+                    
                     <div class="container">
                         <div  class="form-bg">
                         <div class="personnel-info">

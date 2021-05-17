@@ -6,29 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/styles/style2.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-
-     <!--jquery-->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
-
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
-      <!--Nunito_font-->
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,200;1,300&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="assets/styles/navstyle.css">
-
-     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-  <!--end extend-->
-  <!-- deplacez vers fichier script-->
-     <script src="assets/javascript/scrtipt1.js"></script>
-
-
 
 </head>
 
@@ -37,7 +20,7 @@
   <nav class="navbar navbar-expand-lg navbar-light  static-top">
       <div class="container">
         <a class="navbar-brand" href="#">
-              <img src="assets/images/image 3.png" alt="">
+              <img src="assets/images/logo 1.png" alt="">
             </a>
         <button id="ana"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -150,7 +133,7 @@
         <img class="d-block w-100 " src="/assets/images/shutterstock_1482799622 2.png" style="filter: brightness(75%)
         "  alt="First slide">
       </div>
-    </div>
+</div>
   </div>
 
   <!-- icons -->
@@ -171,14 +154,14 @@
               </defs>
               </svg>
               <p style="color:#E5E5E5;font-size: 14px;padding-top: 10px;
-      ">emporter</p>
+      ">sasa</p>
         </div>
         </a>
        <a href="">
         <div class="s-icon">
           <svg class="media-icon" width="48" height="52" viewBox="0 0 60 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M50.2917 5.91667C50.2917 2.6625 47.6292 0 44.375 0H35.5V5.91667H44.375V13.7563L34.08 26.625H23.6667V11.8333H11.8333C5.29542 11.8333 0 17.1288 0 23.6667V32.5417H5.91667C5.91667 37.4525 9.88083 41.4167 14.7917 41.4167C19.7025 41.4167 23.6667 37.4525 23.6667 32.5417H36.92L50.2917 15.8271V5.91667ZM5.91667 26.625V23.6667C5.91667 20.4125 8.57917 17.75 11.8333 17.75H17.75V26.625H5.91667ZM14.7917 35.5C13.1646 35.5 11.8333 34.1688 11.8333 32.5417H17.75C17.75 34.1688 16.4188 35.5 14.7917 35.5Z" fill="#9ED1F4"/>
-            <path d="M8.875 2.95833H23.6667V8.875H8.875V2.95833ZM50.2917 23.6667C45.3808 23.6667 41.4167 27.6308 41.4167 32.5417C41.4167 37.4525 45.3808 41.4167 50.2917 41.4167C55.2025 41.4167 59.1667 37.4525 59.1667 32.5417C59.1667 27.6308 55.2025 23.6667 50.2917 23.6667ZM50.2917 35.5C48.6646 35.5 47.3333 34.1688 47.3333 32.5417C47.3333 30.9146 48.6646 29.5833 50.2917 29.5833C51.9188 29.5833 53.25 30.9146 53.25 32.5417C53.25 34.1688 51.9188 35.5 50.2917 35.5Z" fill="#9ED1F4"/>
+            <path d="M50.2917 5.91667C50.2917 2.6625 47.6292 0 44.375 0H35.5V5.91667H44.375V13.7563L34.08 26.625H23.6667V11.8333H11.8333C5.29542 11.8333 0 17.1288 0 23.6667V32.5417H5.91667C5.91667 37.4525 9.88083 41.4167 14.7917 41.4167C19.7025 41.4167 23.6667 37.4525 23.6667 32.5417H36.92L50.2917 15.8271V5.91667ZM5.91667 26.625V23.6667C5.91667 20.4125 8.57917 17.75 11.8333 17.75H17.75V26.625H5.91667ZM14.7917 35.5C13.1646 35.5 11.8333 34.1688 11.8333 32.5417H17.75C17.75 34.1688 16.4188 35.5 14.7917 35.5Z" fill="#b4370d"/>
+            <path d="M8.875 2.95833H23.6667V8.875H8.875V2.95833ZM50.2917 23.6667C45.3808 23.6667 41.4167 27.6308 41.4167 32.5417C41.4167 37.4525 45.3808 41.4167 50.2917 41.4167C55.2025 41.4167 59.1667 37.4525 59.1667 32.5417C59.1667 27.6308 55.2025 23.6667 50.2917 23.6667ZM50.2917 35.5C48.6646 35.5 47.3333 34.1688 47.3333 32.5417C47.3333 30.9146 48.6646 29.5833 50.2917 29.5833C51.9188 29.5833 53.25 30.9146 53.25 32.5417C53.25 34.1688 51.9188 35.5 50.2917 35.5Z" fill="#b4370d"/>
             </svg>
             <p>Livraison</p>
 
@@ -193,19 +176,34 @@
       <footer>
 
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-7 pp">
-          <img src="/assets/images/biglol - Copie.png" alt="">
+      <div class="row justify-content-between footer-font">
+        <div class="col-3 pp">
+          <img src="/assets/images/logo 1.png" alt="">
+        </div>
+        <div class="col-3">
+          <p class="bold">suivez-nous</p>
+          <br>
+          <div>
+            icons
+
+          </div>
+        </div>
+        <div class="col-3">
+          <p class="bold">contact</p>
+          <br>
           <p>Boulevard Maurice Lemonnier 216-218, 1000 Bruxelles</p>
+          <br>
           <p>+32 2 540 20 35</p>
-          <p>Heures d’ouverture</p>
+        </div>
+        <div class="col-3">
+          <p class="bold">Heures d’ouverture</p>
+          <br>
           <p>Lundi au dimanche</p>
           <p>06h00 - 22h00</p>
-
         </div>
       </div>
       <hr>
-      <p style="text-align: center; color: #9ED1F4;">  Copyright (c) Devcom-Media
+      <p style="text-align: center; color: #b4370d;">  Copyright (c) Devcom-Media
       </p>
     </div>
   </footer>

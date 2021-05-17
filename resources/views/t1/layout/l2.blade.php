@@ -18,83 +18,82 @@
 <body>
   <!-- Navigation -->
   <header>
-  <nav class="navbar navbar-expand-lg navbar-light  static-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-              <img src="assets/images/image 3.png" alt="">
-            </a>
-        <button id="ana"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-lg navbar-light  static-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+                <img src="assets/images/image 3.png" alt="">
+              </a>
+          <button id="ana"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-        <div class="collapse navbar-collapse "  id="navbarResponsive" style="text-align: center;" >
-              <div class="col-10">
-                      <ul class="ul navbar-nav ml-auto ">
-                        <div class="col-1"></div>
-                        <div class="col-3">
-                        <li class="nav-item as ">
-                          <a class="nav-link active" href="#">Accueil
-                                <span class="sr-only">(current)</span>
-                              </a>
-                        </li>
-                      </div>
-                      <div class="col-2">
-                        <li class="nav-item as">
-                          <a class="nav-link  " href="#">Menu</a>
-                        </li>
-                      </div>
-                      <div class="col-3">
-                        <li class="nav-item as">
-                          <a class="nav-link" href="#">Notre histoires</a>
-                        </li>
-                      </div>
-                      <div class="col-2">
-                        <li class="nav-item as">
-                          <a class="nav-link" href="#">Contact</a>
-                        </li>
-                      </div>
-                      </ul>
-              </div>
-        <div class="col-2">
-            <ul class="navbar-nav ml-auto ">
+          <div class="collapse navbar-collapse "  id="navbarResponsive" style="text-align: center;" >
                 <div class="col-10">
-                  <div class="row">
-                    <div class="col-2">
-                      <li class="nav-item active">
-                        <a class="navbar-brand" href="#">
-                          <img src="assets/images/Group.png" alt="">
-                        </a>
-                      </li>
-                    </div>
+                        <ul class="ul navbar-nav ml-auto pad-list d-flex justify-content-center">
+
+                          <li class="nav-item active-li ">
+                            <a class="nav-link active" href="#">Accueil
+                                  <span class="sr-only">(current)</span>
+                                </a>
+                          </li>
+
+
+                          <li class="nav-item as">
+                            <a class="nav-link  " href="#">Menu</a>
+                          </li>
+
+
+                          <li class="nav-item as">
+                            <a class="nav-link" href="#">Notre histoires</a>
+                          </li>
+
+
+                          <li class="nav-item as">
+                            <a class="nav-link" href="#">Contact</a>
+                          </li>
+
+                        </ul>
+                </div>
+          <div class="col-2">
+              <ul class="navbar-nav ml-auto ">
+                  <div class="col-10">
+                    <div class="row">
                       <div class="col-2">
-                        <li class="nav-item li2">
+                        <li class="nav-item active">
                           <a class="navbar-brand" href="#">
-                            <img src="assets/images/Vector.png" alt="">
+                            <img src="assets/images/Group.png" alt="">
                           </a>
                         </li>
-
                       </div>
-                </div>
-        </div>
-            <div class="col-4">
-              <li class="navbar-nav nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                  FR
-                </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">FR</a>
-                  <a class="dropdown-item" href="#">EN</a>
-                  <a class="dropdown-item" href="#">NL</a>
-                </div>
-              </li>
-            </div>
+                        <div class="col-2">
+                          <li class="nav-item li2">
+                            <a class="navbar-brand" href="#">
+                              <img src="assets/images/Vector.png" alt="">
+                            </a>
+                          </li>
 
-            </ul>
+                        </div>
+                  </div>
+          </div>
+              <div class="col-4">
+                <li class="navbar-nav nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    FR
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">FR</a>
+                    <a class="dropdown-item" href="#">EN</a>
+                    <a class="dropdown-item" href="#">NL</a>
+                  </div>
+                </li>
+              </div>
+
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
   <div class="image">
       <h1 class="d-flex align-items-center h-selc">Menu</h1>
   </div>
@@ -118,7 +117,7 @@
       </a>
      <a href="">
       <div class="s-icon">
-        <svg width="60" height="42" viewBox="0 0 60 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="48" height="52" viewBox="0 0 60 42" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M50.2917 5.91667C50.2917 2.6625 47.6292 0 44.375 0H35.5V5.91667H44.375V13.7563L34.08 26.625H23.6667V11.8333H11.8333C5.29542 11.8333 0 17.1288 0 23.6667V32.5417H5.91667C5.91667 37.4525 9.88083 41.4167 14.7917 41.4167C19.7025 41.4167 23.6667 37.4525 23.6667 32.5417H36.92L50.2917 15.8271V5.91667ZM5.91667 26.625V23.6667C5.91667 20.4125 8.57917 17.75 11.8333 17.75H17.75V26.625H5.91667ZM14.7917 35.5C13.1646 35.5 11.8333 34.1688 11.8333 32.5417H17.75C17.75 34.1688 16.4188 35.5 14.7917 35.5Z" fill="#9ED1F4"/>
           <path d="M8.875 2.95833H23.6667V8.875H8.875V2.95833ZM50.2917 23.6667C45.3808 23.6667 41.4167 27.6308 41.4167 32.5417C41.4167 37.4525 45.3808 41.4167 50.2917 41.4167C55.2025 41.4167 59.1667 37.4525 59.1667 32.5417C59.1667 27.6308 55.2025 23.6667 50.2917 23.6667ZM50.2917 35.5C48.6646 35.5 47.3333 34.1688 47.3333 32.5417C47.3333 30.9146 48.6646 29.5833 50.2917 29.5833C51.9188 29.5833 53.25 30.9146 53.25 32.5417C53.25 34.1688 51.9188 35.5 50.2917 35.5Z" fill="#9ED1F4"/>
           </svg>
@@ -137,7 +136,7 @@
 
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-3 pp">
+        <div class="col-7 pp">
           <img src="/assets/images/biglol - Copie.png" alt="">
           <p>Boulevard Maurice Lemonnier 216-218, 1000 Bruxelles</p>
           <p>+32 2 540 20 35</p>

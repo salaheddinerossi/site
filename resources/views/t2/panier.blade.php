@@ -1,4 +1,4 @@
-@extends('t1.layout.l2')
+@extends('t2.layout.l2')
 
 @section('content')
 <!-- table -->
@@ -15,7 +15,7 @@
         </section>
         <div class="panier-table">
             <div class="row panier-row2">
-                <div class="col-sm-2 text-center"><p>Pavé de saumon fumé et citrons confits</p><img src="/assets/images/image 7.png" alt=""></div>
+                <div class="col-sm-2"><p>Pavé de saumon fumé et citrons confits</p><img src="/assets/images/image 7.png" alt=""></div>
                 <div class="col-3 hided">
                     <ul>
                         <li>BACON CHEESYERIES JALAPENOS</li>
@@ -25,7 +25,7 @@
                       </ul>
 
                 </div>
-                <div class="col-sm-2  ">
+                <div class="col-sm-2 ">
                         <div class=" row justify-content-center">
                             <span class="iconify qt" data-icon="akar-icons:minus" data-inline="false"></span>
                             <div ><p>2</p></div>
@@ -39,7 +39,7 @@
 
             </div>
             <div class="row panier-row2">
-                <div class="col-md-2 text-center"><p>Pavé de saumon fumé et citrons confits</p><img src="/assets/images/image 7.png" alt=""></div>
+                <div class="col-sm-2"><p>Pavé de saumon fumé et citrons confits</p><img src="/assets/images/image 7.png" alt=""></div>
                 <div class="col-3 hided">
                     <ul>
                         <li>BACON CHEESYERIES JALAPENOS</li>
@@ -49,7 +49,7 @@
                       </ul>
 
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-sm-2 ">
                         <div class=" row justify-content-center">
                             <span class="iconify qt" data-icon="akar-icons:minus" data-inline="false"></span>
                             <div ><p>2</p></div>
@@ -57,8 +57,8 @@
                     </div>
                 </div>
                 <div  class="col-2 text-center hided"><p>15.00 €</p></div>
-                <div class="col-md-2 text-center"><p>30.00 €</p></div>
-                <div class="col-md-1 text-center" >x</div>
+                <div class="col-sm-2 text-center"><p>30.00 €</p></div>
+                <div class="col-sm-1 text-center" >x</div>
                 <hr width="95%" >
 
             </div>
