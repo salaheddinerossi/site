@@ -34,84 +34,85 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light  static-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-              <img src="assets/images/image 3.png" alt="">
-            </a>
-        <button id="ana"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-        <div class="collapse navbar-collapse "  id="navbarResponsive" style="text-align: center;" >
-              <div class="col-10">
-                      <ul class="ul navbar-nav ml-auto pad-list d-flex justify-content-center">
-
-                        <li class="nav-item active-li ">
-                          <a class="nav-link active" href="#">Accueil
-                                <span class="sr-only">(current)</span>
-                              </a>
-                        </li>
-
-
-                        <li class="nav-item as">
-                          <a class="nav-link  " href="#">Menu</a>
-                        </li>
-
-
-                        <li class="nav-item as">
-                          <a class="nav-link" href="#">Notre histoires</a>
-                        </li>
-
-
-                        <li class="nav-item as">
-                          <a class="nav-link" href="#">Contact</a>
-                        </li>
-
-                      </ul>
-              </div>
-        <div class="col-2">
-            <ul class="navbar-nav ml-auto ">
-                <div class="col-10">
-                  <div class="row">
-                    <div class="col-2">
-                      <li class="nav-item active">
-                        <a class="navbar-brand" href="#">
-                          <img src="assets/images/Group.png" alt="">
-                        </a>
-                      </li>
-                    </div>
-                      <div class="col-2">
-                        <li class="nav-item li2">
-                          <a class="navbar-brand" href="#">
-                            <img src="assets/images/Vector.png" alt="">
-                          </a>
-                        </li>
-
-                      </div>
-                </div>
-        </div>
-            <div class="col-4">
-              <li class="navbar-nav nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                  FR
+  <div class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/image 3.png" alt="">
                 </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">FR</a>
-                  <a class="dropdown-item" href="#">EN</a>
-                  <a class="dropdown-item" href="#">NL</a>
-                </div>
-              </li>
-            </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="col-12">
+                        <ul class="ul navbar-nav ml-auto pad-list d-flex justify-content-center">
 
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
+                            <li class="nav-item active-li ">
+                                <a class="nav-link active" href="/">Accueil
+                                    <span class="sr-only">(current)</span>
+                                    </a>
+                            </li>
+
+
+                            <li class="nav-item as">
+                                <a class="nav-link  " href="#">Menu</a>
+                            </li>
+
+
+                            <li class="nav-item as">
+                                <a class="nav-link" href="/histoire">Notre histoires</a>
+                            </li>
+
+
+                            <li class="nav-item as">
+                                <a class="nav-link" href="/contact">Contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="justify-contant-center">
+                    <ul class="navbar-nav ml-auto d-flex justify-content-center ">
+                        <div class="d-flex">
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <li class="nav-item active">
+                                        <a class="navbar-brand" href="/profile">
+                                            <img src="assets/images/Group.png" alt="">
+                                        </a>
+                                        </li>
+                                    </div>
+                                    <div class="col-2">
+                                    <li class="nav-item li2">
+                                        <a class="navbar-brand" href="/panier">
+                                        <img src="assets/images/Vector.png" alt="">
+                                        </a>
+                                    </li>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                            <li class="navbar-nav nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                FR
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">FR</a>
+                                <a class="dropdown-item" href="#">EN</a>
+                                <a class="dropdown-item" href="#">NL</a>
+                            </div>
+                            </li>
+                        </div>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+  </div>
   <!-- SLIDER -->
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" >
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -201,7 +202,11 @@
           <p>Heures d’ouverture</p>
           <p>Lundi au dimanche</p>
           <p>06h00 - 22h00</p>
-
+          <div class="icons d-flex justify-content-center">
+            <div class="ig"><span class="iconify pad-icon" data-icon="ant-design:instagram-outlined" data-inline="false"></span></div>
+            <div class="fb"><span class="iconify pad-icon" data-icon="ei:sc-facebook" data-inline="false"></span></div>
+            <div class="in"><span class="iconify pad-icon" data-icon="bx:bxl-linkedin" data-inline="false"></span></div>
+          </div>
         </div>
       </div>
       <hr>

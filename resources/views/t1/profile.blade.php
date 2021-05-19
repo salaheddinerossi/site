@@ -1,6 +1,5 @@
 @extends('t1.layout.l2')
 @section('content')
-<section>
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
@@ -121,9 +120,8 @@
                         </svg>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
-</section>
 @endsection

@@ -19,7 +19,7 @@
             </div>
             <div class="col-sm-6">
                 <div class="contact-image">
-                    <img  src="/assets/images/image 6.png" alt="">
+                    <img  src="/assets/images/image 6.png" alt="" class="contact-image-img">
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@
         <section class="panier-header hided">
             <div class="row panier-row1">
                 <div class="col-2"><h2>Produit</h2></div>
-                <div class="col-3 hided"><h2>Annexes</h2></div>
+                <div class="col-3 "><h2>Annexes</h2></div>
                 <div class="col-2 text-center" ><h2>Quantité</h2></div>
                 <div class="col-2 text-center hided"><h2>Prix/pc</h2></div>
                 <div class="col-2 text-center"><h2>Prix Total</h2></div>
@@ -15,9 +15,10 @@
         </section>
         <div class="panier-table">
             <div class="row panier-row2">
-                <div class="col-sm-2 text-center"><p>Pavé de saumon fumé et citrons confits</p><img src="/assets/images/image 7.png" alt=""></div>
-                <div class="col-3 hided">
-                    <ul>
+                <div class="col-md-2 text-center "><p class="hided">Pavé de saumon fumé et citrons confits</p><img src="/assets/images/image 7.png" alt=""><div class="hide show"><p  >Pavé de saumon fumé et citrons confits</p></div></div>
+                <div class="col-md-2 text-center hide show"><p>30.00 €</p></div>
+                <div class="col-md-3 text-center media-padding">
+                    <ul >
                         <li>BACON CHEESYERIES JALAPENOS</li>
                         <li>Menu XL</li>
                         <li>Sans Sauce</li>
@@ -25,7 +26,7 @@
                       </ul>
 
                 </div>
-                <div class="col-sm-2  ">
+                <div class="col-md-2">
                         <div class=" row justify-content-center">
                             <span class="iconify qt" data-icon="akar-icons:minus" data-inline="false"></span>
                             <div ><p>2</p></div>
@@ -33,14 +34,15 @@
                     </div>
                 </div>
                 <div class="col-2 text-center hided"><p>15.00 €</p></div>
-                <div class="col-sm-2 text-center"><p>30.00 €</p></div>
-                <div class="col-sm-1 text-center">x</div>
+                <div class="col-md-2 text-center hided"><p>30.00 €</p></div>
+                <div class="col-md-1 text-center">x</div>
                 <hr width="95%" style="margin-top: 35px">
 
             </div>
             <div class="row panier-row2">
-                <div class="col-md-2 text-center"><p>Pavé de saumon fumé et citrons confits</p><img src="/assets/images/image 7.png" alt=""></div>
-                <div class="col-3 hided">
+                <div class="col-md-2 text-center "><p class="hided" >Pavé de saumon fumé et citrons confits</p><img src="/assets/images/image 7.png" alt=""><div  class="hide show"><p  >Pavé de saumon fumé et citrons confits</p></div></div>
+                <div class="col-md-2 text-center hide show"><p>30.00 €</p></div>
+                <div class="col-md-3 text-center  media-padding">
                     <ul>
                         <li>BACON CHEESYERIES JALAPENOS</li>
                         <li>Menu XL</li>
@@ -57,7 +59,7 @@
                     </div>
                 </div>
                 <div  class="col-2 text-center hided"><p>15.00 €</p></div>
-                <div class="col-md-2 text-center"><p>30.00 €</p></div>
+                <div class="col-md-2 text-center hided"><p>30.00 €</p></div>
                 <div class="col-md-1 text-center" >x</div>
                 <hr width="95%" >
 

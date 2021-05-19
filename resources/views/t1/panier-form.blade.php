@@ -77,8 +77,8 @@
                                 <div class="select_arrow">
                                 </div>
                             </div>
-                            <input placeholder="E-mail" class="half-i" type="text">
-                            <input placeholde="Téléphone" class="half-i" type="text">
+                            <input placeholder="E-mail" class="half-i" type="text"><input placeholde="Téléphone" class="half-i" type="text">
+
 
                         </div>
                     </div>

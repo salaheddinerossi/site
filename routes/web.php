@@ -37,3 +37,7 @@ Route::get('/profile', function () {
 Route::get('/histoire', function () {
     return view('t1.notre-histoire');
 });
+Route::get('/menu', function () {
+    return view('t1.menu');
+});
+
