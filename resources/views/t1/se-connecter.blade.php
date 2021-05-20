@@ -5,42 +5,74 @@
     <section>
         <div class="row">
             <div class="col-md-6">
-                <form action="" class="connect-id">
-                    <h3>Identifiez-vous</h3>
-                    <input class="full-i" style="width: 100%" placeholder="E-mail" type="text" >
-                    <input class="full-i"  style="width: 100%" placeholder="Mot de passe" type="text">
-                    <div  class="d-flex justify-content-end">
-                    <button type="submit">Se connecter</button>
-                </div>
+                <form action="" >
+                    <div class="connect-id">
+                            <h3>Identifiez-vous</h3>
+                            <div class="row d-flex justify-content-end">
+                                <div class="col-md-12 pr-md-0">
+                                    <input class="full-i" placeholder="E-mail" type="text" >
+                                </div>
+                                <div class="col-md-12 pr-md-0">
+                                    <input class="full-i" placeholder="Mot de passe" type="text">
+                                </div>
+                                <div  class="col-md-5 se-connecter pr-md-0">
+                                        <button  type="submit">Se connecter</button>
+                                </div>
+                            </div>
+                    </div>
                 </form>
             </div>
             <div class="col-md-6">
                 <form action="" >
                     <div class="new-acc">
                         <h3>Ou créez votre compte</h3>
-                        <input placeholder="Nom" class="half-i" type="text" name="" id=""><input placeholder="Prénom" class="half-i" type="text" name="" id="">
-                        <input placeholder="E-mail" class="full-i" type="text" name="" id="">
-                        <input placeholder="Mot de passe" class="full-i" class="full-i" type="text" name="" id="">
-                        <input placeholder="Confirmer le mot de passe" class="full-i" type="text" name="" id="">
-                        <input placeholder="Téléphone" class="full-i" type="text" name="" id="">
+                        <div class="row justify-content-between padding-row">
+                            <div class="col-md-6 pr-md-0">
+                                <input placeholder="Nom" class=" half-i" type="text" name="" id="">
+                            </div>
+                            <div class="col-md-6 pr-md-0">
+                                <input placeholder="Prénom" class=" half-i" type="text" name="" id="">
+                            </div>
+                            <div class="col-md-12 pr-md-0">
+                                <input placeholder="E-mail" class="col-md-12 full-i" type="text" name="" id="">
+                            </div>
+                            <div class="col-md-12 pr-md-0">
+                                <input placeholder="Mot de passe" class="col-md-12 full-i" type="text" name="" id="">
+                            </div>
+                            <div class="col-md-12 pr-md-0">
+                                <input placeholder="Confirmer le mot de passe" class="col-md-12 full-i" type="text" name="" id="">
+                            </div>
+                            <div class="col-md-12 pr-md-0">
+                                <input placeholder="Téléphone" class="col-md-12 full-i" type="text" name="" id="">
+                            </div>
+                        </div>
                     </div>
                     <div class="new-acc">
                         <h3>Adresse de livraison</h3>
-                        <input type="text" class="half-i" style="width: 60%" placeholder="Adresse">
-                        <input type="text" class="half-i" style="width: 29%" placeholder="Code postal">
-                        <div class="select">
-                            <select>
-                                <option>--Select--</option>
-                                <option>Hello 1</option>
-                                <option>Hello 2</option>
-                                <option>Hello 3</option>
-                                <option>Hello 4</option>
-                            </select>
-                            <div class="select_arrow">
+                        <div class="row justify-content-end padding-row">
+                            <div class="col-md-8 pr-md-0">
+                                <input type="text" class="half-i"  placeholder="Adresse">
                             </div>
-                        </div>
-                        <div  class="d-flex justify-content-end">
-                            <button type="submit">Se connecter</button>
+                            <div class="col-md-4 pr-md-0">
+                                <input type="text" class="half-i" placeholder="Code postal">
+                            </div>
+                            <div class="col-md-12 pr-md-0">
+                                <div class="select">
+                                    <select>
+                                        <option>--Select--</option>
+                                        <option>Hello 1</option>
+                                        <option>Hello 2</option>
+                                        <option>Hello 3</option>
+                                        <option>Hello 4</option>
+                                    </select>
+                                    <div class="select_arrow">
+                                    </div>
+                                </div>
+                            </div>
+                            <div  class="col-md-5 inscrire pr-md-0">
+                                <button  type="submit">s'inscrire</button>
+                            </div>
+
                         </div>
                     </div>
                 </form>

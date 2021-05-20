@@ -249,7 +249,7 @@
       <div class="col-sm-3 margin_form div_form" id="div_form">
         <span class="iconify fermer" onclick="hide()" data-icon="bi:x-lg" data-inline="false"></span>
 
-  
+
           <form action="" >
                   <h1 class="article_title">Pave de saumon fumé et citrons confits</h1>
                   <h4 class="p_article">Choix boisson :</h4>

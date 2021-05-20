@@ -111,36 +111,9 @@ h1 {
 
 
 
-.f-icon {
-  position: absolute;
-  margin-top: -60px;
-  left: 50%;
-  padding: 15px 40px 5px 40px;
-  text-align: center;
-  background-color: white;
-}
-
-.f-icon border
-p {
-  font-size: 14px;
-  padding-top: 18px;
-  color: white;
-  margin-bottom: 5px;
-
-}
-
-.s-icon {
-  position: absolute;
-  margin-top: -60px;
-  right: 50%;
-  padding: 15px 40px 5px 40px;
-  text-align: center;
-  background-color: white;
-  border: 2px solid var(--c1);
-}
 
 .s-icon p {
-    padding-top: 18px;
+    padding-top: 8px;
     font-size: 14px;
     color: var(--c1);
     margin-bottom: 5px;
@@ -149,9 +122,95 @@ p {
     .hide{
         display: none;
     }
+    .hr{
+        margin-top:15px;
+        width:60%;
+        margin-left:30px;
+
+    }
+    .f-icon {
+        position: absolute;
+        margin-top: -60px;
+        left: 50%;
+        padding: 15px 40px 5px 40px;
+        text-align: center;
+        background-color: white;
+        border: 2px solid white;
+
+      }
+
+      .f-icon p{
+        padding-top: 10px;
+        margin-bottom: 5px;
+        color:#E5E5E5;
+        font-size: 14px;
+        padding-top: 8px;
+        margin-bottom: 5px;
+
+      }
+
+      .s-icon {
+        position: absolute;
+        margin-top: -60px;
+        right: 50%;
+        padding: 15px 40px 5px 40px;
+        text-align: center;
+        background-color: white;
+        border: 2px solid var(--c1);
+      }
+
 }
 
 @media screen  and (min-width: 0px) and (max-width: 768px) {
+
+
+    .f-icon {
+        position: absolute;
+        margin-top: -40px;
+        left: 50%;
+        padding: 15px;
+        text-align: center;
+        background-color: white;
+        border: 2px solid white;
+
+      }
+
+      .f-icon p{
+        padding: 0px;
+        margin-bottom: 5px;
+        color:#E5E5E5;
+        font-size: 14px;
+
+      }
+
+      .s-icon {
+        position: absolute;
+        margin-top: -40px;
+        right: 50%;
+        padding:15px;
+        text-align: center;
+        background-color: white;
+        border: 2px solid var(--c1);
+      }
+
+      .s-icon p {
+          padding-top: 0px;
+          font-size: 14px;
+          color: var(--c1);
+          margin-bottom: 5px;
+      }
+
+
+
+
+
+    .media-center{
+        text-align: center;
+        margin: auto;
+    }
+    .hr-center{
+        width: 100%;
+    }
     .responsive ,.envie{
 width: 80%;
 margin: auto;
@@ -204,27 +263,13 @@ margin: auto;
     width: 30px;
     height: 30px;
   }
-  .f-icon {
-  position: absolute;
-  margin-top: -30px;
-  left: 50%;
-  padding: 10px 25px 3px 25px;
-  text-align: center;
-  background-color: white;  }
-.content{
-    margin-top: -30px;
+.media-icon1{
+    width: 20px;
+    height: 20px;
 }
 
 
-  .s-icon {
-    position: absolute;
-    margin-top: -30px;
-    right: 50%;
-    padding: 10px 25px 3px 25px;
-    text-align: center;
-    background-color: white;
-    border: 2px solid var(--c1);
-  }
+
 
 
   .v-center button {
@@ -286,7 +331,7 @@ hr {
 
 .panier-row1{
     background-color: #fff;
-    padding: 15px 15px 15px  60px ;
+    padding: 15px 15px 15px  25px ;
 }
 .panier-row1 div h2
 {
@@ -300,7 +345,7 @@ hr {
 }
 .panier-row2{
     background-color: #fff;
-    padding: 15px 15px 15px  60px ;
+    padding: 15px 15px 15px  25px ;
 }
 .panier-row2 div p{
     font-size: 14px;
@@ -334,7 +379,8 @@ hr {
 .hided-text{
     display: none;
 }
-/** form **/
+/** article_price_menu **/
+
 .panier-form{
     background-color: white;
     padding: 30px;
@@ -387,7 +433,7 @@ hr {
     padding: 30px;
 }
 .panier-form-body {
-    padding: 30px 30px 15px 30px;
+    padding: 30px 30px 15px 10px;
 }
 .panier-form-body p{
     font-size: 14px;
@@ -406,18 +452,17 @@ hr {
 
 .bg-form{
     background-color: white;
-    margin-top: 20px;
+    margin: 20px 0px;
+    padding: 30px;
 
-}
-.panier-form-body div div div img{
-    padding-right: 20px;
+
 }
 
 .panier-form-body div div div ul{
     margin-left: 10px;
 }
-.panier-form-button{
-    width: 227px;
+.panier-form-button button{
+    width: 100%;
     height: 29px;
     background: var(--c1);
     color: white;
@@ -425,7 +470,20 @@ hr {
     float: right;
     margin-top: 10px;
 }
-.panier-form-button:focus {outline:0;}
+button:focus {outline:0;}
+@media screen and (max-width: 975px) {
+    .nav-hide{
+        display: none;
+    }
+    .nav2-show{
+        display: block;
+    }
+}
+@media screen  and (min-width: 975px) and (max-width: 2000px) {
+    .nav2-hide{
+        display: none;
+    }
+}
 @media screen and (max-width: 768px) {
     .carousel-indicators .active {
         opacity: 1;
@@ -487,21 +545,24 @@ hr {
 }
 }
 /**panier form(right)**/
-
+.padding-row{
+    padding: 5px;
+}
 .half-i{
-    width: 45%;
-    margin-right: 9px;
     margin-top: 10px;
     border: solid 1px var(--c1);
-    padding: 4px;
-    height: 40px;
+    width: 100%;
+    padding: 8px;
+    height: 35px;
+
 }
 .full-i{
-    width: 92%;
     margin-top: 10px;
     border: solid 1px var(--c1);
-    padding: 4px;
-    height: 40x;
+    padding: 8px;
+    height: 35px;
+    width: 100%;
+
 }
 .form-bg{
   background-color: white;
@@ -534,7 +595,7 @@ hr {
 
 }
 .form-enlign button{
-  width: 227px;
+  width: 100%;
   height: 29px;
   color: white;
   background-color: var(--c1);
@@ -543,16 +604,18 @@ hr {
 /**page 3**/
 .connect-id{
   background-color: white;
-  padding: 40px;
-  margin-top: 30px;
+  padding: 40px ;
+  padding-left: 25px;
+  margin-top: 20px;
+
 }
-.connect-id button{
+.se-connecter button{
   background-color: var(--c1);
   color: white;
   border: 0px;
-  width: 227px;
+  width: 100%;
   height: 29px;
-  margin-top: 22px;
+  margin: 15px 0px;
 }
 .connect-id h3{
   font-size: 16px;
@@ -562,17 +625,18 @@ hr {
 
 .new-acc{
   background-color: white;
-  padding: 40px;
-  margin-top: 30px;
+  padding: 40px ;
+  padding-left: 25px;
+  margin-top: 20px;
 }
-.new-acc button{
+
+.inscrire button{
   background-color: var(--c1);
   color: white;
   border: 0px;
-  width: 227px;
+  width: 100%;
   height: 29px;
   margin-top: 22px;
-  margin-right: 40px;
 }
 .new-acc  h3{
   font-size: 16px;
@@ -591,7 +655,7 @@ hr {
   background-color: var(--c1);
   color: white;
   border: 0px;
-  width: 227px;
+  width: 100%;
   height: 35px;
   margin-top: 22px;
   margin-right: 35px;
@@ -782,7 +846,7 @@ input:focus, textarea:focus, select:focus{
   position: relative;
   display: inline-block;
   margin-bottom: 15px;
-  width:92%;
+  width:100%;
   margin:10px 0 0 0;
 }    .select select {
       font-family: 'Arial';
@@ -813,7 +877,7 @@ input:focus, textarea:focus, select:focus{
       }
 .select_arrow {
   position: absolute;
-  top: 16px;
+  top: 10px;
   right: 15px;
   width: 0px;
   height: 0px;
@@ -863,9 +927,7 @@ input:focus, textarea:focus, select:focus{
 
 
  /*index_page*/
-section{
-    padding-top: 5em;
-  }
+
   .section_title{
     scroll-padding-top: 1em;
     padding-bottom: 1em;
@@ -1096,21 +1158,13 @@ width: 100%;
     left: 0;
     height: 15px;
     width: 15px;
-    background: #ffffff;
     border: 1px solid  var(--c1);
     border-radius: 0px;
 }
-.control:hover input ~ .control_indicator,
-.control input:focus ~ .control_indicator {
-    background: white;
-}
 
-.control input:checked ~ .control_indicator {
-    background: white;
-}
+
 
 .control input:disabled ~ .control_indicator {
-    background: #fff;
     opacity: 6;
     pointer-events: none;
 }
@@ -1189,6 +1243,7 @@ textarea{
       border-color: #2aa1c0;
       resize: none;
     outline: none;
+    width: 100%;
     }
   .botton{
     font-family: 'Nunito';
@@ -1226,3 +1281,208 @@ padding: 0.5em 1em;
     position: absolute;
     position: fixed;
   }
+
+
+.dropdown-menu.show {
+    position: absolute;
+}
+
+
+.slick{
+    margin-bottom: 40px;
+   padding: 33px 25px 10px 25px;
+  }
+  .slick_icon_add{
+   color: var(--c1);
+  }
+  .div_form_menu{
+  padding-left: 25px;
+   padding-right: 0;}
+     a:hover{
+       text-decoration: none;
+     }
+     .hr-style{
+       border-color:#D1D1D1;
+       margin-top:0px;
+       opacity: 1;
+       width: 100%;
+     }
+
+     #slick_menu .slick-prev:before
+     {
+       content: url('https://api.iconify.design/ic:round-navigate-before.svg?height=24');
+       }
+     [dir='rtl'] #slick_menu .slick-prev:before
+     {
+       content: url('https://api.iconify.design/ic:round-navigate-before.svg?height=24');
+     }
+     #slick_menu  .slick-next:before
+     {
+         content:url('https://api.iconify.design/ic:round-navigate-next.svg?color=%23000&height=24');
+
+     }
+     [dir='rtl'] #slick_menu .slick-next:before
+     {
+       content:url('https://api.iconify.design/ic:round-navigate-next.svg?color=%23000&height=24');
+
+
+     }
+     #slick_menu  .slick-prev
+     {
+         left:  0px;
+         background-color: #fff;
+
+     }
+     [dir='rtl'] #slick_menu  .slick-prev
+     {
+         right: 0px;
+         left: auto;
+     }
+
+     #slick_menu  .slick-next
+     {
+         right:  0px;
+         background-color: #fff;
+
+
+     }
+     [dir='rtl'] #slick_menu  .slick-next
+     {
+         right: auto;
+         left: 0px;
+     }
+     .item_bg{
+        background-color: #fff;
+    }
+
+
+
+#unique .control {
+    font-family: arial;
+    display: block;
+    position: relative;
+    padding-left: 8px;
+    margin-bottom: 6px;
+    padding-top: 4px;
+    cursor: pointer;
+    font-size: 11px;
+}
+#unique .control input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+    #unique .control_indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 100%;
+
+    border: 1px solid var(--c1);;
+    border-radius: 0px;
+}
+
+
+#unique .control input:checked ~ .control_indicator {
+    color: #A8A7A7;
+}
+
+#unique .control input:disabled ~ .control_indicator {
+
+    opacity: 0.6;
+    pointer-events: none;
+}
+#unique .control_indicator:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+#unique .control input:checked ~ .control_indicator:after {
+    display: block;
+}
+#unique .control-checkbox .control_indicator:after {
+    left: 90%;
+    top: 4px;
+    width: 3px;
+    height: 8px;
+    border: solid;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+#unique .control-checkbox .control_indicator::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-left: -1.3rem;
+    margin-top: -1.3rem;
+    border-radius: 3rem;
+    opacity: 0.6;
+    z-index: 99999;
+    transform: scale(0);
+}
+@keyframes s-ripple {
+    0% {
+        transform: scale(0);
+    }
+    20% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+@keyframes s-ripple-dup {
+   0% {
+       transform: scale(0);
+    }
+   30% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+#unique .control-checkbox input + .control_indicator::before {
+    animation: s-ripple 250ms ease-out;
+}
+#unique .control-checkbox input:checked + .control_indicator::before {
+    animation-name: s-ripple-dup;
+}
+
+.class_margin{
+    margin-bottom: 40px;
+   }
+   .class_padding_text{
+    padding: 1em;
+   }
+   .h_choix{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 14px;
+    color:var(--title_article);
+   }
+   .article_price_menu{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color:var(--c1);
+   }
+.produit_sel{
+    border: 2px solid var(--c1);
+}
